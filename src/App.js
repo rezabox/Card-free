@@ -1,24 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Card1 from "./Components/Card";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+       <Card1 title="Boxing icon has the will for a couple more fights" body="The highly anticipated world championship fight will take place at 10am and is the second major boxing blockbuster in the nation after 43 years"/>
+      </>
   );
 }
 
